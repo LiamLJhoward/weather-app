@@ -12,6 +12,10 @@ body {
     text-align: center;
 }
 
+.main-display {
+    display: flex;
+}
+
 input[type="text"] {
     padding: 20px;
     height: 50px;
@@ -29,4 +33,5 @@ input[type="submit"] {
 
 .display {
     text-align: centre;
+    line-height: 20px;
 }

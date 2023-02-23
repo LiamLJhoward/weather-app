@@ -18,10 +18,13 @@ button.addEventListener('click', function() {
         let humidityValue = data.main.humidity;
         let windValue = data.wind.speed;
 
-        city.innerHTML = cityValue;
-        temp.innerHTML = tempValue;
-        humidity.innerHTML = humidityValue;
-        wind.innerHTML = windValue;
+
+        let tempC = (tempValue - 273.15).toFixed(2);
+
+        city.innerHTML = "Location:    " + cityValue;
+        temp.innerHTML = "Tempreture:    " + tempC + "°C"
+        humidity.innerHTML = "Humidity:    " + humidityValue + "%";
+        wind.innerHTML = "Wind:    " + windValue + " mph";
     })
 
 
