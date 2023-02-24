@@ -35,3 +35,6 @@ input[type="submit"] {
     text-align: centre;
     line-height: 20px;
 }
+h2 {
+    font-family: 'Rubik', sans-serif;
+}
