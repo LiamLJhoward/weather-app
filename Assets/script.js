@@ -5,7 +5,7 @@ let temp = document.querySelector('.temp');
 let humidity = document.querySelector('.humidity');
 let wind = document.querySelector('.wind');
 
-const QueryURL = "http://api.openweathermap.org/data/2.5/weather?q="
+const QueryURL = "https://api.openweathermap.org/data/2.5/weather?q="
 const APIKey = "&appid=bc6266928e139dd4a00f5bf323d8bf06"
 
 const fiveDay = "http://api.openweathermap.org/data/2.5/forecast/daily?q="
